@@ -8,9 +8,13 @@
   <style>
 
    h5, h6 {font-size:100%;}
-   li {margin-top: 0em; margin-bottom: 0.9em; line-height: 1.1;}
+
+   p {max-width: 50em;}
+   ul {padding: 0em; margin: 1em;}
+   li {margin-top: 0em; margin-bottom: 0.9em; line-height: 1.1; max-width: 49em;}
    sup {vertical-align: super; font-size: smaller;}
    sub {vertical-align: bottom; font-size: 60%;}
+   figure {max-width: 50em;}
 
    a:link {color: blue}
    a:visited {color: blue}
@@ -136,9 +140,10 @@
 
 <p><b>Figure 1. Percentage of tornadoes in the data set that meet the threshold and the proportion of associated impacts within and outside of the threshold</b></p>
 
+<figure>
     <img src="SNRA tornadoes rss_files/tornadoes-pie-chart.svg"
 style="width:1200;height:700;"/>
-
+</figure>
 
 <p>When appropriate (i.e., when temporal and spatial criteria were met) individual tornadoes were clustered into multi-tornadic outbreak events. This was done because DHS is responsible for responding to a single destructive event, without separating out damage that comes from different tornadoes. The SNRA team chose to cluster tornadoes using spatial and temporal clustering, as this facilitated analysis on the aggregated total of fatalities, injuries and economic damage caused by tornadoes in a storm system, not just an individual storm. Through the use of this threshold, the SNRA team was able to capture the most damaging and dangerous storms from the data set.</p>
 
@@ -146,7 +151,7 @@ style="width:1200;height:700;"/>
 
 <p>It is important to note that the SNRA team elected to not make the Enhanced Fujita (EF) Scale (formerly known as the Fujita (F) Scale) rating a threshold for clustering. A powerful storm (EF4-- EF5) could hit a forest or a field, causing relatively little damage. At the same time, a weak storm (EF0 -- EF2) could cause significant economic damage or loss of life if it struck a densely populated area. Due to the inconsistency, the SNRA team felt it was important to include all tornadoes regardless of the EF scale rankings in the data set.</p>
 
-<p>During this risk assessment, temporally and spatially associated events were identified as “tornado clusters.” There are two main reasons why the SNRA team created a model to cluster tornadoes as opposed to relying on external sources:</p>
+<p>During this risk assessment, temporally and spatially associated events were identified as "tornado clusters." There are two main reasons why the SNRA team created a model to cluster tornadoes as opposed to relying on external sources:</p>
 
 <ul><li>A specific definition of a tornado cluster (also referred to as a tornado outbreak) is not available for guidance in the meteorological literature. There is an ongoing debate in the field regarding the definition of an outbreak, as storm systems can spawn tornadoes over a broad array of time and space. <a href="#fn13">[13]</a> Without a concrete definition, the SNRA team determined that it needed to create the clustering model internally.</li>
 
@@ -732,15 +737,16 @@ style="width:1200;height:700;"/>
 
 
 <p><b>Figure 2 - The Southern U.S. on 27 April 2011 (NASA Earth Observatory, 2011)</b></p>
-<img src="SNRA tornadoes rss_files/nasa-20110427-southern-us-photo.jpg"
-style="width:377pt;height:252pt;"/>
-
+<figure>
+   <img src="SNRA tornadoes rss_files/nasa-20110427-southern-us-photo.jpg"
+     style="width:377pt;height:252pt;"/>
+</figure>
 
 <h3>Additional Relevant Information</h3>
 
 <h4>The Enhanced Fujita (EF) Scale:</h4>
 
-<p>In 2007, NOAA began to classify tornado damage using the Enhanced Fujita scale (EF scale). The previous Fujita (F) scale “did not include damage indicators (DIs) and did not provide a method to correlate construction quality with the observed variability in damage resulting from similar wind speeds. Therefore, in 2004 the EF Scale ratings were adopted and provide a more rigorous and defensible metric for the severity of tornadoes.” <a href="#fn37">[37]</a> The EF scale allows for a </p>
+<p>In 2007, NOAA began to classify tornado damage using the Enhanced Fujita scale (EF scale). The previous Fujita (F) scale "did not include damage indicators (DIs) and did not provide a method to correlate construction quality with the observed variability in damage resulting from similar wind speeds. Therefore, in 2004 the EF Scale ratings were adopted and provide a more rigorous and defensible metric for the severity of tornadoes." <a href="#fn37">[37]</a> The EF scale allows for a </p>
 
 <blockquote>
 <p>...more precise and robust way to assess tornado damage than the original [Fujita scale]. It classifies F0-F5 damage as calibrated by engineers and meteorologists across 28 different types of damage indicators (mainly various kinds of buildings, but also a few other structures as well as trees). The idea is that … a tornado scale needs to take into account the typical strengths and weaknesses of different types of construction. This is because the same wind does different things to different kinds of structures. In the EF scale, there are different, customized standards for assigning any given F rating to a well built, well anchored wood-frame house compared to a garage, school, skyscraper, unanchored house, barn, factory, utility pole or other type of structure. <a href="#fn38">[38]</a></p>
@@ -794,127 +800,127 @@ style="width:377pt;height:252pt;"/>
 
 <h3>Geographic Shifts in Tornado Prevalence</h3>
 
-<p>“Tornado Alley” has long been a colloquial term to describe the most tornado prone regions in the United States, which can “shift dramatically across the space between the Rocky and Appalachian Mountains.” <a href="#fn39">[39]</a> Tornadoes have occurred in every state as well as the District of Columbia and Puerto Rico since 1996, and during the 1996 -- 2011 timeframe, there were on average 406 tornadoes per state. The District of Columbia had the lowest number of tornadoes with only one tornado reportedly passing through DC, while Texas had the highest proportion of tornadoes with 2,282. This is in large part due to its juxtaposition between the Great Plains and the Gulf of Mexico, as well as its large geographic size.</p>
+<p>"Tornado Alley" has long been a colloquial term to describe the most tornado prone regions in the United States, which can "shift dramatically across the space between the Rocky and Appalachian Mountains." <a href="#fn39">[39]</a> Tornadoes have occurred in every state as well as the District of Columbia and Puerto Rico since 1996, and during the 1996 -- 2011 timeframe, there were on average 406 tornadoes per state. The District of Columbia had the lowest number of tornadoes with only one tornado reportedly passing through DC, while Texas had the highest proportion of tornadoes with 2,282. This is in large part due to its juxtaposition between the Great Plains and the Gulf of Mexico, as well as its large geographic size.</p>
 
-<p>Meteorologists are researching an eastward shift in the number of tornadoes. <a href="#fn40">[40]</a> Walker Ashley, a meteorologist at Northern Illinois University, notes that the increased number of tornadoes in the mid-south states (particularly Alabama, Tennessee, Mississippi and Arkansas) from 1996 into the 2000s pose a threat to residents of those states. He argues that “while the ‘tornado alley’ region of the Great Plains boasts the most frequent occurrence of tornadoes, most tornado fatalities occur in the nation’s mid-South region, which includes parts of Arkansas, Tennessee, Alabama and Mississippi.” <a href="#fn41">[41]</a> There are a number of factors that make the mid-southern states vulnerable to tornadoes: <a href="#fn42>[42]</a></li>
+<p>Meteorologists are researching an eastward shift in the number of tornadoes. <a href="#fn40">[40]</a> Walker Ashley, a meteorologist at Northern Illinois University, notes that the increased number of tornadoes in the mid-south states (particularly Alabama, Tennessee, Mississippi and Arkansas) from 1996 into the 2000s pose a threat to residents of those states. He argues that "while the ‘tornado alley’ region of the Great Plains boasts the most frequent occurrence of tornadoes, most tornado fatalities occur in the nation’s mid-South region, which includes parts of Arkansas, Tennessee, Alabama and Mississippi." <a href="#fn41">[41]</a> There are a number of factors that make the mid-southern states vulnerable to tornadoes: <a href="#fn42>[42]</a></li>
 
 <ul>
-<li>Mobile home density. The NIU meteorologist Walker Ashley noted 44 percent of all fatalities during tornadoes occur in mobile homes, compared to 25 percent in permanent houses. The southeast United States has the highest percentage of mobile-home stock compared with any other region east of the Continental Divide. “Mobile homes make up 30 to 40 percent of the housing stock in some counties in the deep South,” Ashley said. “By far, mobile homes are the most vulnerable structures in a tornadic situation.”</li>
+<li>Mobile home density. The NIU meteorologist Walker Ashley noted 44 percent of all fatalities during tornadoes occur in mobile homes, compared to 25 percent in permanent houses. The southeast United States has the highest percentage of mobile-home stock compared with any other region east of the Continental Divide. "Mobile homes make up 30 to 40 percent of the housing stock in some counties in the deep South," Ashley said. "By far, mobile homes are the most vulnerable structures in a tornadic situation."</li>
 
-<li>Nighttime tornadoes. The southeast United States has a higher likelihood of killer nighttime tornadoes. Most states within this region have greater percentages of tornado fatalities occurring at night than other states. “I just completed another study that shows tornadoes from the midnight to sunrise period are 2.5 times as likely to kill as daytime events,” Ashley said. Further, nocturnal tornadoes are more difficult to spot, and people are more likely to be asleep when warnings are issued.</li>
+<li>Nighttime tornadoes. The southeast United States has a higher likelihood of killer nighttime tornadoes. Most states within this region have greater percentages of tornado fatalities occurring at night than other states. "I just completed another study that shows tornadoes from the midnight to sunrise period are 2.5 times as likely to kill as daytime events," Ashley said. Further, nocturnal tornadoes are more difficult to spot, and people are more likely to be asleep when warnings are issued.</li>
 
 <li>Forested areas. Whereas regions within the Great Plains by definition are lacking in tree cover, the mid-South region is more forested, leading to reduced visibility both for the public and spotters. <a href="#fn43>[43]</a></li>
 
 <li>Early season storms. Storms that occur before the national peak in the severe storm season, which spans May and June, may catch people off guard during a tornado event.</li>
 
-<li>Complacency. In contrast to other parts of the country, the South lacks a focused “tornado season,” which can lead to complacency. “In the South, people think tornado alley is where you get tornadoes,” Ashley said. “That sort of perception also leads to complacency, which in turn leads to higher fatality rates.” He points out that Oklahoma is known worldwide for the frequency of its tornadoes. Yet the state has fewer fatalities than Arkansas, Alabama and Mississippi. <a href="#fn44>[44]</a></li></ul>
+<li>Complacency. In contrast to other parts of the country, the South lacks a focused "tornado season," which can lead to complacency. "In the South, people think tornado alley is where you get tornadoes," Ashley said. "That sort of perception also leads to complacency, which in turn leads to higher fatality rates." He points out that Oklahoma is known worldwide for the frequency of its tornadoes. Yet the state has fewer fatalities than Arkansas, Alabama and Mississippi. <a href="#fn44>[44]</a></li></ul>
 
 <h4>Advanced Warning Systems</h4>
 
-<p>Technology has played an increasingly important role in preparing for, mitigating to, and responding to tornado disasters. The increased use of radar has caused a surge in the number of tornadoes identified by the NWS. Today, the Doppler radar is widely used, and NOAA estimates that it provides on average an 11 minute lead time on tornado formation and can predict with a high level of accuracy where a tornado will strike. <a href="#fn45>[45]</a> Scientists are currently developing the next generation of weather radars by “adapting phased array technology, currently used on Navy ships, for use in weather forecasting. Phased array technology is expected to lengthen the average lead time for tornado warnings from 12 minutes to 20 minutes.” <a href="#fn46>[46]</a></p>
+<p>Technology has played an increasingly important role in preparing for, mitigating to, and responding to tornado disasters. The increased use of radar has caused a surge in the number of tornadoes identified by the NWS. Today, the Doppler radar is widely used, and NOAA estimates that it provides on average an 11 minute lead time on tornado formation and can predict with a high level of accuracy where a tornado will strike. <a href="#fn45>[45]</a> Scientists are currently developing the next generation of weather radars by "adapting phased array technology, currently used on Navy ships, for use in weather forecasting. Phased array technology is expected to lengthen the average lead time for tornado warnings from 12 minutes to 20 minutes." <a href="#fn46>[46]</a></p>
 
-<p>According to the NWS, there are several steps of identification before information is disseminated to the public. When there are favorable conditions “for severe weather to develop, a severe thunderstorm or tornado WATCH is issued. Weather Service personnel use information from weather radar, spotters, and other sources to issue severe thunderstorm and tornado WARNINGS for areas where severe weather is imminent.” <a href="#fn47>[47]</a> Once the conditions justify the issuance of a tornado watch or a tornado warning, information is disseminated to “local radio and television stations and are broadcast over local NOAA Weather Radio stations serving the warned areas. These warnings are also relayed to local emergency management and public safety officials who can activate local warning systems to alert communities.” <a href="#fn48>[48]</a></p>
+<p>According to the NWS, there are several steps of identification before information is disseminated to the public. When there are favorable conditions "for severe weather to develop, a severe thunderstorm or tornado WATCH is issued. Weather Service personnel use information from weather radar, spotters, and other sources to issue severe thunderstorm and tornado WARNINGS for areas where severe weather is imminent." <a href="#fn47>[47]</a> Once the conditions justify the issuance of a tornado watch or a tornado warning, information is disseminated to "local radio and television stations and are broadcast over local NOAA Weather Radio stations serving the warned areas. These warnings are also relayed to local emergency management and public safety officials who can activate local warning systems to alert communities." <a href="#fn48>[48]</a></p>
 
 <p>Due to the advancement in technology, affected individuals may receive tornado watch and warning information via the radio, television, cellular phones, internet and/or social media sites. The modernization of warning dissemination is taking place in both the public sector (with FEMA and NWS leading the initiative for tornadoes) and the private sector (with local news and media outlets enhancing dissemination capabilities). <a href="#fn49>[49]</a></p>
 
 
 <h4>Bibliography</h4>
 
-<p id=“fn1”>1.&nbsp; The data reported in this table represent historical U.S. tornado data. The SNRA project team used historical data from the Storm Prediction Center (SPC) online database. The SPC is a division of the National Weather Service (NWS), which is a part of the National Oceanographic and Atmospheric Administration (NOAA).</p>
+<p id="fn1">1.&nbsp; The data reported in this table represent historical U.S. tornado data. The SNRA project team used historical data from the Storm Prediction Center (SPC) online database. The SPC is a division of the National Weather Service (NWS), which is a part of the National Oceanographic and Atmospheric Administration (NOAA).</p>
 
-<p id=“fn2”>2.&nbsp; Social displacement, psychological distress, and environmental impacts of tornado outbreaks were not assessed for the Tornado event. Expert elicitations and research for these metrics were completed during the main project phase of the SNRA (summer-fall 2011) before the tornado event was added in 2012. These measures will be assessed in the next iteration of the SNRA.</p>
+<p id="fn2">2.&nbsp; Social displacement, psychological distress, and environmental impacts of tornado outbreaks were not assessed for the Tornado event. Expert elicitations and research for these metrics were completed during the main project phase of the SNRA (summer-fall 2011) before the tornado event was added in 2012. These measures will be assessed in the next iteration of the SNRA.</p>
 
-<p id=“fn3”>3.&nbsp; Low, best, and high estimates for fatalities, injuries and illnesses, and direct economic loss come from the low, average, and high values of the set of events meeting a $100 million threshold of direct economic cost. This set came from the National Weather Service’s Storm Prediction Center database on tornadoes ranging from 1996 - 2011. For further details see Assumptions sections below.</p>
+<p id="fn3">3.&nbsp; Low, best, and high estimates for fatalities, injuries and illnesses, and direct economic loss come from the low, average, and high values of the set of events meeting a $100 million threshold of direct economic cost. This set came from the National Weather Service’s Storm Prediction Center database on tornadoes ranging from 1996 - 2011. For further details see Assumptions sections below.</p>
 
-<p id=“fn4”>4.&nbsp; This is the low estimate when the $100 million threshold is applied.</p>
+<p id="fn4">4.&nbsp; This is the low estimate when the $100 million threshold is applied.</p>
 
-<p id=“fn5”>5.&nbsp; Environmental impact estimates were elicited from subject matter experts in 2011, prior to the addition of the Tornado hazard event (2012).</p>
+<p id="fn5">5.&nbsp; Environmental impact estimates were elicited from subject matter experts in 2011, prior to the addition of the Tornado hazard event (2012).</p>
 
-<p id=“fn6”>6.&nbsp; Frequency estimates correspond to the inverse of the number of years of the longest interval between accident events (low), the mean frequency of the accident events (best), and the greatest number of accidents within one year (high) of the set described in note 1 above.</p>
+<p id="fn6">6.&nbsp; Frequency estimates correspond to the inverse of the number of years of the longest interval between accident events (low), the mean frequency of the accident events (best), and the greatest number of accidents within one year (high) of the set described in note 1 above.</p>
 
-<p id=“fn7”>7.&nbsp; (Edwards, The Online Tornado FAQ, 2012)</p>
+<p id="fn7">7.&nbsp; (Edwards, The Online Tornado FAQ, 2012)</p>
 
-<p id=“fn8”>8.&nbsp; This is based on number of tornadoes per year from 1996 -- 2011. All calculations are taken from the SPC database.</p>
+<p id="fn8">8.&nbsp; This is based on number of tornadoes per year from 1996 -- 2011. All calculations are taken from the SPC database.</p>
 
-<p id=“fn9”>9.&nbsp; On September 24, 2001, a tornado originated in Virginia and passed through Washington DC. The individual entry for DC was removed during data consolidation. The tornado ID number is 11594 (entry in the NOAA SPC database is 2001 -- 451).</p>
+<p id="fn9">9.&nbsp; On September 24, 2001, a tornado originated in Virginia and passed through Washington DC. The individual entry for DC was removed during data consolidation. The tornado ID number is 11594 (entry in the NOAA SPC database is 2001 -- 451).</p>
 
-<p id=“fn10”>10.&nbsp; All units of time have been converted to central standard time (CST).</p>
+<p id="fn10">10.&nbsp; All units of time have been converted to central standard time (CST).</p>
 
-<p id=“fn11”>11.&nbsp; The day window accounts for a 47 hour and 59 minute span of time. For example, a day window would associate a tornado that struck at 00:00 on January 1, 2011 and one that struck at 23:59 on January 2, 2011.</p>
+<p id="fn11">11.&nbsp; The day window accounts for a 47 hour and 59 minute span of time. For example, a day window would associate a tornado that struck at 00:00 on January 1, 2011 and one that struck at 23:59 on January 2, 2011.</p>
 
-<p id=“fn12”>12.&nbsp; An event was spatially associated with a previous event if it comes within 150 miles of the path taken by the previous event.</p>
+<p id="fn12">12.&nbsp; An event was spatially associated with a previous event if it comes within 150 miles of the path taken by the previous event.</p>
 
-<p id=“fn13”>13.&nbsp; Available definitions that are spatially precise may be nebulous in time, or vice versa. Moreover, many historical attempts to define the term “tornado outbreak” have failed to account for the spatial outliers, far removed from tornado clusters but within the same time domain. (Edwards, Thompson, Crosble, & Hart, 2004)</p>
+<p id="fn13">13.&nbsp; Available definitions that are spatially precise may be nebulous in time, or vice versa. Moreover, many historical attempts to define the term "tornado outbreak" have failed to account for the spatial outliers, far removed from tornado clusters but within the same time domain. (Edwards, Thompson, Crosble, & Hart, 2004)</p>
 
-<p id=“fn14”>14.&nbsp; To judge the distance, the SNRA project team used several data fields from the SPC database. First, using the starting and ending latitude and longitude, one can establish the exact origin and termination points of the tornado. For the purposes of the analysis, the algorithm uses the midpoint C of a straight line between the starting point A and terminating point B. If two tornadoes were within 150 miles AND one day of each other at points A, B, or C, they would be clustered.</p>
+<p id="fn14">14.&nbsp; To judge the distance, the SNRA project team used several data fields from the SPC database. First, using the starting and ending latitude and longitude, one can establish the exact origin and termination points of the tornado. For the purposes of the analysis, the algorithm uses the midpoint C of a straight line between the starting point A and terminating point B. If two tornadoes were within 150 miles AND one day of each other at points A, B, or C, they would be clustered.</p>
 
-<p id=“fn15”>15.&nbsp; The average path length of a tornado in the data set is 3 miles and the average maximum width is 113 yards. Due to the short average path length and width, the starting, ending and midpoint were assumed to be sufficient points of measurement from which the 150 mile distance is determined. </p>
+<p id="fn15">15.&nbsp; The average path length of a tornado in the data set is 3 miles and the average maximum width is 113 yards. Due to the short average path length and width, the starting, ending and midpoint were assumed to be sufficient points of measurement from which the 150 mile distance is determined. </p>
 
-<p id=“fn16”>16.&nbsp; Note that a single tornado can be its own cluster if no other tornadoes in the data set meet the spatial and temporal criteria.</p>
+<p id="fn16">16.&nbsp; Note that a single tornado can be its own cluster if no other tornadoes in the data set meet the spatial and temporal criteria.</p>
 
-<p id=“fn17”>17.&nbsp; Geographically, the data set spanned all 50 U.S. states as well as Puerto Rico and the District of Columbia.</p>
+<p id="fn17">17.&nbsp; Geographically, the data set spanned all 50 U.S. states as well as Puerto Rico and the District of Columbia.</p>
 
-<p id=“fn18”>18.&nbsp; The economic damage of the tornadoes in the threshold totaled $20,721,128,120.</p>
+<p id="fn18">18.&nbsp; The economic damage of the tornadoes in the threshold totaled $20,721,128,120.</p>
 
-<p id=“fn19”>19.&nbsp; The average number is found by dividing the total number of tornadoes that were part of an outbreak (2811) by the number of outbreaks (44).</p>
+<p id="fn19">19.&nbsp; The average number is found by dividing the total number of tornadoes that were part of an outbreak (2811) by the number of outbreaks (44).</p>
 
-<p id=“fn20”>20.&nbsp; Prior to 1996, the SPC database used a logarithmic scale to provide a range of estimated loss. According to the information sheet that accompanies the database, it was “a categorization of tornado damage by dollar amount (0 or blank-unknown; 1<$50, 2=$50-$500, 3=$500-$5,000, 4=$5,000-$50,000; 5=$50,000-$500,000, 6=$500,000-$5,000,000, 7=$5,000,000-$50,000,000, 8=$50,000,000- $500,000,000, 9=$5,000,000,000.)” (NOAA NWS SPC, 2012)</p>
+<p id="fn20">20.&nbsp; Prior to 1996, the SPC database used a logarithmic scale to provide a range of estimated loss. According to the information sheet that accompanies the database, it was "a categorization of tornado damage by dollar amount (0 or blank-unknown; 1<$50, 2=$50-$500, 3=$500-$5,000, 4=$5,000-$50,000; 5=$50,000-$500,000, 6=$500,000-$5,000,000, 7=$5,000,000-$50,000,000, 8=$50,000,000- $500,000,000, 9=$5,000,000,000.)" (NOAA NWS SPC, 2012)</p>
 
-<p id=“fn21”>21.&nbsp; The SPC began separating crop and property damage in 2007. Where available, the fields have been combined to reflect the direct economic damages.</p>
+<p id="fn21">21.&nbsp; The SPC began separating crop and property damage in 2007. Where available, the fields have been combined to reflect the direct economic damages.</p>
 
-<p id=“fn22”>22.&nbsp; The Tornado national-level event was added to the SNRA in calendar year 2012, subsequent to the main project phase of the SNRA in summer-fall 2011 when the expert elicitations and research for the social displacement, psychological distress, and environmental impact measures were  completed. These measures will be assessed for all events in the next iteration of the SNRA.</p>
+<p id="fn22">22.&nbsp; The Tornado national-level event was added to the SNRA in calendar year 2012, subsequent to the main project phase of the SNRA in summer-fall 2011 when the expert elicitations and research for the social displacement, psychological distress, and environmental impact measures were  completed. These measures will be assessed for all events in the next iteration of the SNRA.</p>
 
-<p id=“fn23”>23.&nbsp; (Storm Prediction Center Warning Coordination Meteorologist, 2011)</p>
+<p id="fn23">23.&nbsp; (Storm Prediction Center Warning Coordination Meteorologist, 2011)</p>
 
-<p id=“fn24”>24.&nbsp; (The Associated Press, 2012)</p>
+<p id="fn24">24.&nbsp; (The Associated Press, 2012)</p>
 
-<p id=“fn25”>25.&nbsp; (Storm Prediction Center Warning Coordination Meteorologist, 2011)</p>
+<p id="fn25">25.&nbsp; (Storm Prediction Center Warning Coordination Meteorologist, 2011)</p>
 
-<p id=“fn26”>26.&nbsp; (State Emergency Management Agency, 2011)</p>
+<p id="fn26">26.&nbsp; (State Emergency Management Agency, 2011)</p>
 
-<p id=“fn27”>27.&nbsp; (FEMA, 2011)</p>
+<p id="fn27">27.&nbsp; (FEMA, 2011)</p>
 
-<p id=“fn28”>28.&nbsp; From 1996 -- 2011, there were 99 EF 4 tornadoes (or 0.48% of the data set) and 13 EF 5 tornadoes (or 0.06% of the data set).</p>
+<p id="fn28">28.&nbsp; From 1996 -- 2011, there were 99 EF 4 tornadoes (or 0.48% of the data set) and 13 EF 5 tornadoes (or 0.06% of the data set).</p>
 
-<p id=“fn29”>29.&nbsp; In fact, as noted above, the Joplin tornado appeared as part of a cluster. The SNRA project team chose to highlight it because of its infamy and its severe consequences.</p>
+<p id="fn29">29.&nbsp; In fact, as noted above, the Joplin tornado appeared as part of a cluster. The SNRA project team chose to highlight it because of its infamy and its severe consequences.</p>
 
-<p id=“fn30”>30.&nbsp; Based on data from the SPC database. NOAA released the tornado count of 751 tornadoes for the month of April 2011 in its Special Report, but there was a discrepancy between the number of tornadoes (752 in SPC database and 751 in the special report). Therefore, the SNRA team used the SPC database figures. (National Climatic Data Center, 2011)</p>
+<p id="fn30">30.&nbsp; Based on data from the SPC database. NOAA released the tornado count of 751 tornadoes for the month of April 2011 in its Special Report, but there was a discrepancy between the number of tornadoes (752 in SPC database and 751 in the special report). Therefore, the SNRA team used the SPC database figures. (National Climatic Data Center, 2011)</p>
 
-<p id=“fn31”>31.&nbsp; Based on data from the SPC database. NOAA released the tornado count of 542 tornadoes for the month of May 2003 in its Special Report, but there was a discrepancy between the number of tornadoes (540 in SPC database and 542 in the special report). Therefore, the SNRA team used the SPC database figures. (National Climatic Data Center, 2011)</p>
+<p id="fn31">31.&nbsp; Based on data from the SPC database. NOAA released the tornado count of 542 tornadoes for the month of May 2003 in its Special Report, but there was a discrepancy between the number of tornadoes (540 in SPC database and 542 in the special report). Therefore, the SNRA team used the SPC database figures. (National Climatic Data Center, 2011)</p>
 
-<p id=“fn32”>32.&nbsp; (National Weather Service, 2011)</p>
+<p id="fn32">32.&nbsp; (National Weather Service, 2011)</p>
 
-<p id=“fn33”>33.&nbsp; (National Weather Service, 2011)</p>
+<p id="fn33">33.&nbsp; (National Weather Service, 2011)</p>
 
-<p id=“fn34”>34.&nbsp; (National Weather Service, 2011)</p>
+<p id="fn34">34.&nbsp; (National Weather Service, 2011)</p>
 
-<p id=“fn35”>35.&nbsp; (Simmons & Sutter, 2012)</p>
+<p id="fn35">35.&nbsp; (Simmons & Sutter, 2012)</p>
 
-<p id=“fn36”>36.&nbsp; There were 382 tornadoes clustered in this outbreak. 4% of the storms were violent (EF4 -- EF5).</p>
+<p id="fn36">36.&nbsp; There were 382 tornadoes clustered in this outbreak. 4% of the storms were violent (EF4 -- EF5).</p>
 
-<p id=“fn37”>37.&nbsp; (Mitigation Assessment Team Report, 2012)</p>
+<p id="fn37">37.&nbsp; (Mitigation Assessment Team Report, 2012)</p>
 
-<p id=“fn38”>38.&nbsp; (Edwards, Thompson, Crosble, & Hart, 2004)</p>
+<p id="fn38">38.&nbsp; (Edwards, Thompson, Crosble, & Hart, 2004)</p>
 
-<p id=“fn39”>39.&nbsp; (Dixon, Mercer, Choi, & Allen, 2011)</p>
+<p id="fn39">39.&nbsp; (Dixon, Mercer, Choi, & Allen, 2011)</p>
 
-<p id=“fn40”>40.&nbsp; This eastward shift into the mid-southern states is subjectively defined as “Dixie Alley.” See Dixon, Mercer, Choi, & Allen, 2011.</p>
+<p id="fn40">40.&nbsp; This eastward shift into the mid-southern states is subjectively defined as "Dixie Alley." See Dixon, Mercer, Choi, & Allen, 2011.</p>
 
-<p id=“fn41”>41.&nbsp; (Parisi, 2008)</p>
+<p id="fn41">41.&nbsp; (Parisi, 2008)</p>
 
-<p id=“fn42”>42.&nbsp; The following factors are based on analysis done prior to 2008.</p>
+<p id="fn42">42.&nbsp; The following factors are based on analysis done prior to 2008.</p>
 
-<p id=“fn43”>43.&nbsp; Storm spotters play an important role in identifying tornadoes. Over 30 years ago, the National Weather Service (NWS) developed SKYWARN, a program that “encourages communities to develop a network of trained storm spotters who provide detailed reports of dangerous weather conditions to their local emergency management agency and to the NWS.” (National Weather Service, 2012)</p>
+<p id="fn43">43.&nbsp; Storm spotters play an important role in identifying tornadoes. Over 30 years ago, the National Weather Service (NWS) developed SKYWARN, a program that "encourages communities to develop a network of trained storm spotters who provide detailed reports of dangerous weather conditions to their local emergency management agency and to the NWS." (National Weather Service, 2012)</p>
 
-<p id=“fn44”>44.&nbsp; (Parisi, 2008)</p>
+<p id="fn44">44.&nbsp; (Parisi, 2008)</p>
 
-<p id=“fn45”>45.&nbsp; (NOAA National Severe Storms Laboratory, 2012) </p>
+<p id="fn45">45.&nbsp; (NOAA National Severe Storms Laboratory, 2012) </p>
 
-<p id=“fn46”>46.&nbsp; (NOAA National Severe Storms Laboratory, 2012) </p>
+<p id="fn46">46.&nbsp; (NOAA National Severe Storms Laboratory, 2012) </p>
 
-<p id=“fn47”>47.&nbsp; (National Weather Service, 2012)</p>
+<p id="fn47">47.&nbsp; (National Weather Service, 2012)</p>
 
-<p id=“fn48”>48.&nbsp; (National Weather Service, 2012)</p>
+<p id="fn48">48.&nbsp; (National Weather Service, 2012)</p>
 
-<p id=“fn49”>49.&nbsp; (Coleman, Knupp, Spann, Elliott, & Peters, 2011)</p>
+<p id="fn49">49.&nbsp; (Coleman, Knupp, Spann, Elliott, & Peters, 2011)</p>
 
