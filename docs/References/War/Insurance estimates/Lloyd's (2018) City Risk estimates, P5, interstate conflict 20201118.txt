@@ -1,0 +1,133 @@
+Lloyd's city risk estimates, interstate conflict
+Last at (January 2022) at https://201905qlik.lloyds.com/an/extensions/LloydsCityRiskIndexQAP/LloydsCityRiskIndexQAP.html.
+Originally, at https://cityriskindex.lloyds.com/explore/ (retrieved 18 November 2020)
+
+Interstate conflict
+
+Totals
+Country	total risk	cost	likelihood/yr	return period (years)
+USA/Rus/PRC	11.11	10,093.04	0.00110	908
+sum Fr, UK	0.67	1,217.56	0.00055	1,817
+
+Country	total risk	cost	likelihood/yr	return period (years)
+USA	5.75	5,215.89	0.00110	909
+Russian Federation	0.36	314.05	0.00115	897
+China	5.01	4,563.10	0.00110	909
+France	0.31	557.10	0.00056	1,797
+UK	0.36	660.46	0.00055	1,835
+
+Definitions
+
+Interstate conflict.  Moderate scenario is IW2, extreme scenario is IW3. 
+The five nuclear powers have only one scenario, IW3.
+
+IW1	City mobilized for war, but not attacked; industrial activity switches from commercial to military 
+	production; consumer demand and investor confidence drops, some outmigration; conflict impact lasts 
+	for 1 year
+IW2	City suffers sporadic attack from occasional missiles or aerial bombardment (and possible damage 
+	from cyber attack); city is mobilized for war; consumer demand and investor confidence drops, large 
+	outmigration; conflict impact lasts for 2 year
+IW3	City is the target of strategic bombing by enemy forces, destroying industrial and commercial 
+	output and military facilities in the city; significant outmigration. Possible rebuilding 
+	afterwards by major injection of capital; conflict impact lasts for 3 years
+
+Cities (interstate conflict)
+
+United States
+City	risk	cost	return period (years)
+Atlanta	0.22	199.05	905
+Austin	0.08	76.93	962
+Baltimore	0.11	99.45	904
+Boston	0.25	230.13	921
+Charlotte	0.10	91.21	912
+Chicago	0.38	343.97	905
+Columbus	0.08	70.96	887
+Dallas	0.32	290.24	907
+Denver	0.12	109.07	909
+Detroit	0.15	132.66	884
+El Paso	0.02	15.27	764
+Houston	0.29	267.39	922
+Indianapolis	0.08	73.03	913
+Jacksonville	0.04	38.94	974
+Kansas City	0.08	70.09	876
+Los Angeles	0.60	541.37	902
+Memphis	0.04	37.13	928
+Miami	0.20	179.16	896
+New York	0.97	881.56	909
+Philadelphia	0.26	233.45	898
+Phoenix	0.14	126.24	902
+Portland	0.10	91.14	911
+San Antonio	0.07	64.98	928
+San Diego	0.13	116.03	893
+San Francisco	0.29	262.3	904
+San Jose	0.13	119.37	918
+Seattle	0.20	182.9	915
+Washington	0.30	271.87	906
+
+Russian Federation
+City	risk	cost	return period (years)
+Chelyabinsk	0.01	6.07	607
+Ekaterinburg	0.01	9.24	924
+Kazan	0.01	8.13	813
+Moscow	0.23	209.7	912
+Nizhniy Novgorod	0.01	6.6	660
+Novosibirsk	0.01	8.91	891
+Omsk	0.01	5.68	568
+Rostov-on-Don	0.01	4.62	462
+Samara	0.01	6.82	682
+St. Petersburg	0.05	48.28	966
+
+PRC
+City	risk	cost	return period (years)
+Beijing	0.38	347.69	915
+Changchun	0.08	77.26	966
+Changsha	0.14	129.23	923
+Changzhou	0.08	77.13	964
+Chengdu	0.17	157.93	929
+Chongqing	0.27	244.32	905
+Dalian	0.11	101.08	919
+Dongguan	0.10	93.16	932
+Guangzhou	0.30	275.21	917
+Hangzhou	0.16	144.12	901
+Harbin	0.09	78.25	869
+Hefei	0.09	85.18	946
+Jinan	0.10	91.61	916
+Kunming	0.07	59.72	853
+Lanzhou	0.03	30.91	1030
+Nanchang	0.06	58.03	967
+Nanjing	0.15	140.08	934
+Nanning	0.06	51.2	853
+Ningbo	0.12	110.44	920
+Puyang	0.02	17.89	895
+Qingdao	0.15	137.49	917
+Shanghai	0.47	424.98	904
+Shenyang	0.10	88.93	889
+Shenzhen	0.28	258.35	923
+Suzhou	0.23	212.49	924
+Taian	0.05	47.88	958
+Taiyuan	0.04	35.32	883
+Tangshan	0.10	87.27	873
+Tianjin	0.28	256.26	915
+Wuhan	0.19	169.72	893
+Wuxi	0.14	123.07	879
+Xiamen	0.06	52.98	883
+Xian	0.10	88.19	882
+Xuzhou	0.09	77.97	866
+Zhengzhou	0.12	105.77	881
+Zhumadian	0.03	25.99	866
+
+France
+City	risk	cost	return period (years)
+Lyon	0.03	58.6	1953
+Marseille	0.02	35.41	1771
+Nice	0.01	23.84	2384
+Paris	0.23	409.44	1780
+Toulouse	0.02	29.81	1491
+
+UK
+City	risk	cost	return period (years)
+Birmingham	0.05	82.11	1642
+Glasgow	0.02	34.14	1707
+Leeds	0.02	44.78	2239
+London	0.24	440.48	1835
+Manchester	0.03	58.95	1965
