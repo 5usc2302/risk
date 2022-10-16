@@ -66,5 +66,4 @@ https://5usc2302.github.io/risk/By%20chapter/SNRA%202015%20Wildfire%20risk%20sum
 https://5usc2302.github.io/risk/By%20chapter/SNRA%202015%20Winter%20storm%20risk%20summary%20sheet.pdf
 https://5usc2302.github.io/risk/By%20chapter/Space%20weather.htm
 https://5usc2302.github.io/risk/By%20chapter/Tornadoes.htm
-https://5usc2302.github.io/risk/By%20chapter/SNRA%20front_files/Fatality%20risk.svg
-https://5usc2302.github.io/risk/By%20chapter/SNRA%20front_files/Fatality%20risk.png
+https://5usc2302.github.io/risk/By%20chapter/SNRA%20front_files/snra-fatality-risk.svg
