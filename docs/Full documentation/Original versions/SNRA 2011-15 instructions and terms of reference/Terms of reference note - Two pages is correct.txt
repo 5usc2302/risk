@@ -1,0 +1,5 @@
+The original document is in Microsoft Word, and is two pages.  If it is re-saved in Word without the 'maintain compability with previous versions of Word' box checked before it is converted to PDF, it will save as a three page document matching the redacted PDF that FEMA's FOIA office released in 2018.  I can't replicate this without losing all of the original-date metadata, so this PDF is two pages like the Word document it comes from.
+
+Most of the date metadata is overwritten anyway, but the SourceModified field (Properties --> Custom tab or Properties --> Description --> Additional Metadata --> Advanced --> http://ns.adobe.com/pdfx/1.3/ (the last dropdown), pdfx:SourceModified) retains the 7/14/2011 last save date of the Word document that exports to this PDF file.
+
+-- ajj 2021/09/28
